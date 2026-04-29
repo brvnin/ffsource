@@ -1,0 +1,46 @@
+#pragma once
+#ifndef INCLUDES_H
+#define INCLUDES_H
+
+#define IMGUI_DEFINE_MATH_OPERATORS
+#include <windows.h>
+#include <d3d11.h>
+#include <tchar.h>
+#include <TlHelp32.h>
+#include <intrin.h>
+#include <wincrypt.h>
+#include <iostream>
+#include <shlwapi.h>
+#include <Wbemidl.h>
+#include <regex>
+#include <thread>
+#include <psapi.h>
+#include <string>
+#include <vector>
+#include <functional>
+#include "../Cfg/imgui/imgui.h"
+#include "../Cfg/imgui/imgui_internal.h"
+#include "../Cfg/imgui/imgui_impl_win32.h"
+#include "../Cfg/imgui/imgui_impl_dx11.h"
+#include "../Cfg/Discord/Discord.h"
+#include "../Cfg/strenc.h"
+#include "../Cfg/encrypt.hh"
+#include "Scope.h"
+#include "../Unity/Vector4.h"
+#include "../Unity/Vector3.h"
+#include "../Unity/Vector2.h"
+#include "../Unity/Quaternion.h"
+#include "DirectOverlay.h"
+#include "Bytes.h"
+#include "UTF8.h"
+#include "Offsets.h"
+#include "../Cfg/minhook/MinHook.h"
+#include "Utils.h"
+#include "Process.h"
+#include "../Cfg/seguranca.h"
+#include "../Cfg/imgui/stb_image.h"
+#include "../Cfg/icon.h"
+#include "Functions.h"
+#include "../Cfg/imwindow.h"
+
+#endif // INCLUDES_H
